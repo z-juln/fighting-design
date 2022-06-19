@@ -18,6 +18,7 @@ module.exports = {
   root: true,
 
   rules: {
+    'one-var': 'off',
     'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0, maxBOF: 0 }],
     'eol-last': 'error',
     'import/no-unresolved': 'error', // 必须存在真实路径，避免大小写不敏感带来的问题
@@ -104,7 +105,7 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 'off',
         'vars-on-top': 'off',
         'no-var': 'off',
-        '@typescript-eslint/no-redeclare': 'off',
+        '@typescript-eslint/no-redeclare': 'off'
       }
     }
   ]
